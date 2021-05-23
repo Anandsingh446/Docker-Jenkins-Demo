@@ -1,7 +1,10 @@
 from flask import Flask
 
 PORT = 8000
-MESSAGE = "Hello World \n"
+MESSAGE = "a = 33
+b = 200
+if b > a:
+  print("b is greater than a")"
 
 app = Flask(__name__)
 
